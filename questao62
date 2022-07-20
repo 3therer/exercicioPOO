@@ -1,0 +1,51 @@
+package POO;
+
+public class contaBancariaObj {
+
+	public static void main(String[] args) {
+		
+		contaBancariaClass cliente1 = new contaBancariaClass("Conta Poupança");
+		contaBancariaClass cliente2 = new contaBancariaClass("Conta Corrente");
+		contaBancariaClass cliente3 = new contaBancariaClass("Conta Empresarial");
+		
+	
+		System.out.println("\nCliente 1");
+		cliente1.getBanco();
+		cliente1.setNomeCompleto("Maria Mariá");
+		cliente1.setIdade(40);
+		cliente1.setCpf("789.789.789-78");
+		cliente1.getTipoConta();
+		cliente1.setConta(789789);
+		cliente1.setAgencia(00001);
+		cliente1.setStatusConta(true);
+		cliente1.estado();
+		cliente1.statusDaConta();
+		
+		System.out.println("\nCliente 2");
+		cliente2.getBanco();
+		cliente2.setNomeCompleto("José Josué");
+		cliente2.setIdade(30);
+		cliente2.setCpf("456.456.456-45");
+		cliente2.getTipoConta();
+		cliente2.setConta(456456);
+		cliente2.setAgencia(00001);
+		cliente2.setStatusConta(false);
+		cliente2.estado();
+		cliente2.statusDaConta();
+		
+		System.out.println("\nCliente 3");
+		cliente3.getBanco();
+		cliente3.setNomeCompleto("João Jão");
+		cliente3.setIdade(18);
+		cliente3.setCpf("123.123.123-12");
+		cliente3.getTipoConta();
+		cliente3.setConta(123123);
+		cliente3.setAgencia(00001);
+		cliente3.setStatusConta(true);
+		cliente3.estado();
+		cliente3.statusDaConta();
+				
+
+	}
+
+	}

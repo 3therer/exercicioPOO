@@ -1,0 +1,44 @@
+package POO;
+
+public class FuncionarioPOOQuestao4 {
+
+	public static void main(String[] args) {
+	Funcionario f1 = new Funcionario ("Joao",18);
+	Funcionario f2 = new Funcionario ("Jose",30);
+	Funcionario f3 = new Funcionario ("Maria",40);
+
+	
+	System.out.println("Funcionário(a) 1");
+	f1.setCpf("123.123.123-12");
+	f1.setSalario(1000.0);
+	f1.informacoes();
+	
+	System.out.println("\nFuncionário(a) 2");
+	f2.setCpf("456.456.456-45");
+	f2.setSalario(2000.0);
+	f2.informacoes();
+	
+	System.out.println("\nFuncionário(a) 3");
+	f3.setCpf("789.789.789-78");
+	f3.setSalario(3000.0);
+	f3.informacoes();
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+		
+		
+		
+		
+
+	}
+
+}
